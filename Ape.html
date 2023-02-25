@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    
+</head>
+<body>
+
+    <div class="bdy">
+        <div class="tab">
+            <div class="btn">
+                <div class="logo">
+                    <img src="logo.jpg" class="log" />
+
+                </div>
+                <button id="btn1" onclick="openHome()" ><i class="fas fa-home "></i>Home</button>
+                <button id="btn2" onclick="openBranch()"><i  class="fas fa-code-branch "></i>Gallery</button>
+                    
+
+            </div>
+
+
+        </div>
+    </div>
+    <div id="content1" class="content">
+        <div class="content-left">
+            <h1>Ysavelle Catering Service</h1>
+            <p> We Offer Quality Catering Service for Weddings, Debut, Birthdays and Corporate Events. Book your event now! We Serve Appetizers and Desserts for Our Customers. Our Menu Also Includes Pastas, Pastries and More. Explore Gallery. </p>
+
+        </div>
+        <div class="content-right">
+            <img src="logo.jpg" />
+        </div>
+    </div>
+    <section id="content2">
+        <div class="container">
+            <h2 class="text-center" style="color: whitesmoke;">Explore Foods</h2>
+
+            <a href="category-foods.html">
+            <div class="box-3 float-container">
+                <img src="pic1.jpg" alt="pic" class="img-responsive img-curve">
+
+                <h3 class="float-text text-white">Gallery</h3>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="box-3 float-container">
+                <img src="pic2.jpg" alt="Lollipop" class="img-responsive img-curve">
+
+                <h3 class="float-text text-white  ">Gallery</h3>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="box-3 float-container">
+                <img src="pic3.jpg" alt="Adobo" class="img-responsive img-curve">
+
+                <h3 class="float-text text-white">Gallery</h3>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="box-3 float-container">
+                <img src="pic4.jpg" alt="Sinigang" class="img-responsive img-curve">
+
+                <h3 class="float-text text-white">Gallery</h3>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="box-3 float-container">
+                <img src="pic5.jpg" alt="Lollipop" class="img-responsive img-curve">
+
+                <h3 class="float-text text-white ">Gallery</h3>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="box-3 float-container">
+                <img src="pic6.jpg" alt="adobo" class="img-responsive img-curve">
+
+                <h3 class="float-text text-white">Gallery</h3>
+            </div>
+            </a>
+            
+
+            
+            
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    
+    <section class="social">
+        <div class="container text-center">
+            <ul>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/50/000000/facebook-new.png"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+        
+
+        
+    <script>
+        var content1 = document.getElementById("content1");
+        var content2 = document.getElementById("content2");
+        
+        var btn1 = document.getElementById("btn1");
+        var btn2 = document.getElementById("btn2");
+       
+        function openHome() {
+            content1.style.transform = "translateX(0)";
+            content2.style.transform = "translateX(100%)";
+            
+            btn1.style.color = "#C55900";
+            btn2.style.color = "#FFFFFF";
+           
+            
+        }
+        function openBranch() {
+            content1.style.transform = "translateX(100%)";
+            content2.style.transform = "translateX(0%)";
+            
+            btn2.style.color = "#C55900";
+            btn1.style.color = "#FFFFFF";
+            
+
+        }
+
+        
+    </script>
+
+    
+
+</body>
+</html>

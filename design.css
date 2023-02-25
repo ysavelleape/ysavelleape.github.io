@@ -1,0 +1,183 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    
+    overflow:scroll;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bdy {
+    width: 100%;
+    background-color: rgba(0,0,0,0.95);
+    
+}
+.tab {
+    align-content:center
+    
+   
+
+   
+}
+
+.log {
+    padding: 0px;
+    position: sticky;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.btn{
+    display: flex;
+    
+}
+    .btn button {
+        background: transparent;
+        color: white;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 10px 12px;
+        margin-right: 50px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+.btn .fas{
+    margin-right: auto;
+
+}
+    .btn .fas {
+        margin-right: auto;
+    }
+    .btn button:hover .fas {
+        color: #C55900;
+    }
+    .btn button:hover .far {
+        color: #C55900;
+    }
+    .content-right img{
+        width: 350px; 
+    }
+.content-left {
+    color: white;
+    align-items: center;
+    margin: auto;
+    margin-left:40px;
+    flex-basis: 50%;
+
+    
+}
+
+.content-right {
+    flex-basis: 50%;
+    text-align:right;
+    margin:auto;
+    
+    
+   
+    
+}
+.content-left p {
+    font-size: 20px;
+    padding:30px 0;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+    padding-right:800px;
+        
+    width: 70%;
+    background-color: rgba(0,0,0,0.75);
+    position:absolute;
+    transform: translateX(100%);
+    
+}
+#content1 {
+    transform: translateX(0px);
+}
+#btn1 {
+    color: #ECDED1;
+}
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+/* Order*/
+
+/*CSS for mobile ready*/
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+    .menu ul{
+        text-align: center;
+    }
+    .food-search input[type="search"]{
+        width: 90%;
+        margin-bottom: 3%;
+        padding: 2%;
+    }
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+    .food-search{
+        padding: 10% 0;
+    }
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 5%;
+    }
+    .box-3{
+        width: 90%;
+        margin: 4% auto;
+    }
+    .food-menu{
+        padding: 20% auto;
+    }
+    .food-menu-box{
+        width: 95%;
+        padding:5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+}
+#content2{
+    padding: 0% 0;
+
+    
+}
+.box-3{
+    
+    width: 28%;
+    float: left;
+    margin: 2%;
+   
+  
+    
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.img-round{
+    border-radius: 150px;
+}
